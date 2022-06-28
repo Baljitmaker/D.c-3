@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+
+@media (max-width: 1750px) {
+
+    html {
+        font-size: 55%;
+    }
+
+}
+
+
+@media (max-width: 1500px) {
+
+    html {
+        font-size: 50%;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+
+    html {
+        font-size: 45%;
+    }
+
+}
+
+@media (max-width: 950px) {
+
+    html {
+        font-size: 40%;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    html {
+        font-size: 35%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hp {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    html {
+        font-size: 30%;
+    }
+
+}
+
+@media (max-width: 300px) {
+
+    html {
+        font-size: 25%;
+    }
+
+}
+
+
+/*-----top-------*/
+
+
+
+
+
+
+
+
+
+
+
+.top {
+    background: rgba(0, 0, 0, 0.7) url('background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: auto;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+}
+
+.logo-div {
+    width: 100%;
+}
+
+.logo-div .logo {
+    padding: 5rem;
+    height: 10rem;
+    width: 30rem;
+}
+
+.nav-ul {
+    display: flex;
+    padding: 6rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    padding: 2.5rem;
+}
+
+.navbar ul li a {
+    color: silver;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar ul li a:hover {
+    color: whitesmoke;
+}
+
+
+
+.nav-2 {
+    display: flex;
+    width: 100%;
+}
+
+.hp {
+    font-family: 'Ubuntu', sans-serif;
+    width: 100rem;
+    padding: 10rem;
+}
+
+
+.zero {
+    color: white;
+    font-size: 6rem;
+    line-height: 1.5;
+}
+
+.one {
+    color: white;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+/*----facililties-----*/
+
+@media (max-width: 2300px) {
+
+    .books {
+        flex-direction: row-reverse;
+    }
+
+}
+
+
+@media (max-width: 1350px) {
+
+    html {
+        font-size: 53%;
+    }
+
+
+    h1 {
+        color: white;
+        background-color: black;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+
+    html {
+        font-size: 50%;
+    }
+
+
+    h1 {
+        font-size: 3rem;
+        padding: 2rem;
+        color: white;
+        background-color: black;
+    }
+
+
+    .games,
+    .books,
+    .food {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .para {
+        margin: 2rem;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    html {
+        font-size: 35%;
+    }
+
+
+    h1 {
+        color: white;
+        background-color: black;
+    }
+
+
+    .games,
+    .books,
+    .food {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+
+#facilities {
+    background-color: grey;
+    padding-bottom: 5rem;
+}
+
+.f-h1 {
+    color: black;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10rem;
+}
+
+.our-facilities {
+    text-align: center;
+    padding: 10rem 5rem;
+}
+
+
+.games,
+.books,
+.food {
+    display: flex;
+    width: 100%;
+    padding: 7rem 1rem;
+}
+
+
+
+
+.para{
+    color: black;
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.2rem;
+    padding: 5rem;
+    width: 90%;
+    text-align: left;
+}
+
+
+
+
+.f-div {
+    width: 60%;
+    margin-top: 1.5rem;
+}
+
+
+.ff-img {
+    height: 20rem;
+    width: 25rem;
+    border: 1px black solid;
+    border-radius: 3rem;
+}
+
+
+
+
+
+/*-----flex-----*/
+
+@media (max-width: 1350px) {
+
+    html {
+        font-size: 53%;
+    }
+
+}
+
+
+
+@media (max-width: 1000px) {
+
+    html {
+        font-size: 50%;
+    }
+
+
+    .flex-box {
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    html {
+        font-size: 35%;
+    }
+
+
+    .flex-box {
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+#flex {
+    background-color: silver;
+}
+
+.flex-1,
+.flex-2,
+.flex-3 {
+    background-color: #15133C;
+    padding: 4rem;
+    border-radius: 20px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+
+.f-h {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 4rem;
+    text-align: center;
+    color: black;
+}
+
+
+.flex-h {
+    color: gray;
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.flex-p {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: white;
+
+}
+
+.bbtn {
+    text-align: center;
+}
+
+.btn {
+    padding: 2rem;
+    width: 70%;
+    border-radius: 3rem;
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    margin: 5rem;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    border: 3px silver solid;
+}
+
+
+
+
+
+/*-----footer-----*/
+
+@media (max-width: 1350px) {
+
+    html {
+        font-size: 53%;
+    }
+
+}
+
+
+
+@media (max-width: 1000px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .feeter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .foot {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    html {
+        font-size: 35%;
+    }
+
+    .feeter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .foot {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+.feeter {
+    display: flex;
+    width: 100%;
+}
+
+.footer {
+    padding: 5rem;
+    background-color: snow;
+}
+
+
+.contact {
+    width: 50%;
+}
+
+.cont {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+
+.pea {
+    padding: 2rem;
+    font-weight: bolder;
+}
+
+
+.foot {
+    width: 50%;
+    text-align: center;
+}
+
+
+.foot-1 {
+    padding-top: 6rem;
+}
+
+
+.fab {
+    color: slategrey;
+    padding: 3rem 2rem;
+}
+
+
+.fab:hover {
+    color: silver;
+}
+
+
+.foot-h {
+    padding-bottom: 4rem;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.span {
+    text-decoration: underline;
+    padding-right: 0.4rem;
+
+}
+
+h2 {
+    padding-bottom: 5rem;
+}
